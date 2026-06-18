@@ -16,3 +16,8 @@ def calculate_discounted_price(price, discount_percent):
 if __name__ == "__main__":
     print(f"Stock value (qty=50, price=12.5): {calculate_stock_value(50, 12.5)}")
     print(f"Discounted price (price=200, discount=15%): {calculate_discounted_price(200, 15)}")
+
+
+def calculate_profit_margin(cost_price, selling_price):
+   """Calculates the profit margin (%) on a product."""
+    return ((selling_price - cost_price) / cost_price) * 100
