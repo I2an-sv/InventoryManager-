@@ -10,7 +10,7 @@ def calculate_stock_value(quantity, unit_price):
 
 def calculate_discounted_price(price, discount_percent):
     """Calculates the final price of a product after a percentage discount."""
-    return price - (price * discount_percent / 100)
+    return price - discount_percent
 
 
 if __name__ == "__main__":
